@@ -1,4 +1,4 @@
-package juegos;
+
 
 import java.util.Random;
 import java.util.Scanner;
@@ -7,6 +7,11 @@ public class Juego {
 
     static final String RESPUESTAS_POSITIVAS = "YSys";
     static final String RESPUESTAS_NEGATIVAS = "Nn";
+
+    public static void main(String[] args) {
+        Juego.ppt();
+    }
+
     public static void ppt() {
         //Posibles opciones
         String[] opciones = {"piedra", "papel", "tijera"};
